@@ -1,4 +1,9 @@
 {
     "name": "wikia/phpflickr",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "phpFlickr.php"
+        ]
+    }
 }
